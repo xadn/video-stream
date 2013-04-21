@@ -1,0 +1,20 @@
+{
+  "name": "video-stream",
+  "description": "live stream videos without flash",
+  "version": "0.0.1-3",
+  "private": true,
+  "dependencies": {
+    "express": "3.0.3",
+    "jade": "0.27.7",
+    "connect-assets": "2.3.3",
+    "less": "1.3.1",
+    "socket.io": "0.9.11"
+  },
+  "subdomain": "aniccolai.video-stream",
+  "scripts": {
+    "start": "app.coffee"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}

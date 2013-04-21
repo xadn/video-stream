@@ -1,0 +1,11 @@
+!!! 5
+html(lang='en')  
+  
+  head  
+    title video stream
+    != css('app/app')
+
+  body
+    block content
+    script(src='/socket.io/socket.io.js')
+    != js('app/app')
